@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_add"
+        android:title="@string/action_add"
+        app:showAsAction="withText|ifRoom" />
+    <item
+        android:id="@+id/action_import"
+        android:title="@string/action_import"
+        app:showAsAction="withText|ifRoom" />
+    <item
+        android:id="@+id/action_post"
+        android:title="@string/action_post"
+        app:showAsAction="withText|ifRoom" />
+    <item
+        android:id="@+id/action_write"
+        android:title="@string/action_write"
+        app:showAsAction="withText|ifRoom" />
+    <item
+        android:id="@+id/action_verify"
+        android:title="@string/action_verify"
+        app:showAsAction="withText|ifRoom" />
+    <!--<item-->
+        <!--android:id="@+id/action_notarize"-->
+        <!--android:title="@string/action_notarize"-->
+        <!--app:showAsAction="withText|ifRoom" />-->
+    <!--<item android:id="@+id/action_buy" android:title="@string/action_buy"
+        app:showAsAction="withText|ifRoom" />
+    <item android:id="@+id/action_sell" android:title="@string/action_sell"
+        app:showAsAction="withText|ifRoom" />-->
+    <!--<item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />-->
+
+
+</menu>

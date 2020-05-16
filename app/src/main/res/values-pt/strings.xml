@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">Apekato</string>
+    <string name="app_login_title">Bitcoin Blockchain Services</string>
+
+    <string name="title_section_exit">Sair</string>
+    <string name="title_section_digital_certificate">Certificado Digital</string>
+    <string name="title_section_digital_certificates">Certificados Digitais</string>
+    <string name="title_section_login">Logar ou Cadastrar-se</string>
+    <string name="title_section_notarization">Autenticação</string>
+    <string name="title_section_notarizations">Autenticações</string>
+    <string name="title_section_digital_signatures">Assinaturas Digitais</string>
+    <string name="title_section_verify_notarization">Verificar Autenticação</string>
+    <string name="title_section_wall">Blockchain Wall</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_add">Adicionar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirmar">Confirmar</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_import">Import</string>
+    <string name="action_proof">Comprovar</string>
+    <string name="action_login">Logar</string>
+    <string name="action_next">Próximo</string>
+    <string name="action_post">Publicar</string>
+    <string name="action_register">Cadastrar-se</string>
+    <string name="action_send">Enviar</string>
+    <string name="action_send_code">Enviar Código</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="action_verify">Verificar</string>
+    <string name="action_write">Escrever</string>
+
+    <string name="alertdialog_app_upgrade_title">Atualização</string>
+    <string name="alertdialog_app_upgrade_msg">Por favor, atualize o aplicativo Apekato, pois houve atualização de itens importantes
+        relacionados a funcionalidades, segurança e/ou correções de erros.</string>
+    <string name="alertdialog_bitcoin_wallet_msg">Não há nenhum aplicativo de carteira bitcoin instalado, você quer instalar uma carteira bitcoin?</string>
+    <string name="alertdialog_bitcoin_wallet_title">Carteira Bitcoin</string>
+    <string name="alertdialog_doc_size_exceeded">No momento, o tamanho máximo de arquivo que seu dispositivo Android pode processar em memória RAM é</string>
+    <string name="alertdialog_doc_size_exceeded_title">Tamanho Limite de Arquivo Excedido</string>
+    <string name="alertdialog_email_address">Selecione um email para ser notificado quando seu documento for notarizado no blockchain:</string>
+    <string name="alertdialog_email_address_title">Endereço de Email</string>
+    <string name="alertdialog_error_duplicated_simserialnum_email_username_title">Já existe um cadastro com o mesmo:</string>
+    <string name="alertdialog_error_duplicated_simserialnum_msg">			- número de série de seu chip\n</string>
+    <string name="alertdialog_error_duplicated_email_msg">			- endereço de email\n</string>
+    <string name="alertdialog_error_duplicated_username_msg">			- nome de usuário</string>
+    <string name="alertdialog_error_mobile_gmail_not_registered_title">Email Não Adicionado</string>
+    <string name="alertdialog_error_mobile_gmail_not_registered_msg_1">
+        Você está cadastrado(a) no aplicativo Apekato com a conta de email do Google:\n</string>
+    <string name="alertdialog_error_mobile_gmail_not_registered_msg_2">
+        \nEssa conta de email também precisa estar adicionada no seu celular.
+        \nPor favor, adicione-a no seu celular para logar no aplicativo.</string>
+    <string name="alertdialog_google_play_services_title">Sem Google Play Services</string>
+    <string name="alertdialog_google_play_services">O Google Play Services APK precisa ser instalado
+        no seu dispositivo para que o aplicativo possa ser utilizado.</string>
+    <string name="alertdialog_import_digital_certificate">Insira a senha do certificado digital</string>
+    <string name="alertdialog_import_digital_certificate_title">Importar Certificado Digital</string>
+    <string name="alertdialog_internal_problem_title">Problema Interno</string>
+    <string name="alertdialog_internal_problem_email_msg">Um problema interno ocorreu no sistema do
+	    aplicativo. Por favor, corrija o erro.</string>
+    <string name="alertdialog_internal_problem_msg">Um problema interno ocorreu no sistema do
+	    aplicativo. Por favor, envie um email notificando o suporte técnico para acelerar
+	    o processo de normalização.</string>
+    <!--<string name="alertdialog_post_request_msg">Ao enviar o pedido, você e o comerciante receberão um email com instruções para proceder-->
+    <!--com a transação, e receberá o endereço de email do comerciante para conversar sobre a transação.</string>-->
+    <string name="alertdialog_no_connectivity">Por favor, conecte seu celular a uma rede de internet.</string>
+    <string name="alertdialog_no_connectivity_title">Sem Conectividade</string>
+    <string name="alertdialog_password_forgot_activity_msg">Selecione o email associado à sua conta</string>
+    <string name="alertdialog_password_code_activity_msg">Insira o código de recuperação que lhe enviamos por email</string>
+    <string name="alertdialog_password_code_activity_msg_error">O código de recuperação não foi reconhecido. Tente novamente.</string>
+    <string name="alertdialog_password_code_activity_msg_error_title">Código Inválido</string>
+    <string name="alertdialog_password_reset_activity_msg">Você alterou sua senha com sucesso.</string>
+    <string name="alertdialog_password_reset_activity_msg_title">Parabéns!</string>
+
+    <!--Ao enviar o pedido, o comerciante é notificado via email e deve depositar os Bitcoins-->
+    <!--numa carteira de arbitragem. Ao confirmar-se esse depósito, você recebe um email com informação da conta bancária do comerciante e deve-->
+    <!--depositar o valor da sua compra de Bitcoins na conta bancária do comerciante. Após efetuar esse depósito, você deve enviar um email-->
+    <!--ao comerciante confirmando o seu depósito na conta bancária do comerciante para que o mesmo libere os Bitcoins para ser depositado-->
+    <!--em sua carteira. Você recebe o endereço de email do comerciante ao enviar esse pedido de compra.-->
+
+    <string name="alertdialog_register_password_msg">Sua senha deve conter: \n
+        - no mínimo 8 caracteres; \n
+        - uma letra maiúscula; \n
+        - um número; \n
+        - um dos caracteres abaixo: \n
+          &#160;&#160;!@#$%^*()-_+=,.?;:~`´</string>
+    <!--<string name="alertdialog_registration_progress_title">Cadastrando&#8230;</string>-->
+    <string name="alertdialog_registration_progress_title">Cadastro</string>
+    <string name="alertdialog_registration_progress_msg">Cadastrando suas informações. \nPor favor aguarde...</string>
+    <string name="alertdialog_reg_cell_num_msg">Verificou-se que o chip do seu celular foi trocado.
+        Por favor, registre o número
+        de celular do seu chip no campo abaixo:</string>
+    <string name="alertdialog_user_registration_problem_email_msg">Um erro ocorreu no cadastramento de usuário. Por favor, corrija-o.</string>
+    <string name="alertdialog_user_registration_problem_msg">Por favor, envie um email notificando o suporte técnico para acelerar
+	    o processo de normalização.</string>
+    <string name="alertdialog_user_registration_problem_title">Erro no Cadastro de Usuário</string>
+    <!--<string name="alertdialog_limit_msg">O aplicativo Apekato está na versão Beta. Em razão disso, os limites atuais são: \n\n-->
+    <!-- Preço máximo: 3000,00 BRL \n-->
+    <!-- Quantidade mínima: 0,02 BTC\n-->
+    <!-- Quantidade máxima: 0,04 BTC</string>-->
+
+    <string name="ask_choose_wallet">Selecione um App de Carteira de Bitcoin</string>
+
+    <string name="button_title_cancel">Cancelar</string>
+    <string name="button_title_no">No</string>
+    <string name="button_title_reset_password">Esqueceu sua senha?</string>
+    <string name="button_title_send">Enviar</string>
+    <string name="button_title_yes">Yes</string>
+
+    <string name="confirmation_cel_num">Para autenticar seu número, seu celular
+        enviará um torpedo endereçado ao seu próprio número de celular. Esse torpedo
+        terá um código que deve ser digitado no próximo campo de texto. Dependendo do plano de
+	     sua operadora, uma taxa será cobrada pelo envio desse torpedo.
+        </string>
+    <string name="confirmation_cel_num_title">Autenticação do Número de Celular</string>
+    <string name="currency_code_btc">BTC</string>
+    <string name="email_address">____________</string>
+    <string name="error_email_invalid">Seu email não está cadastrado ou a senha é inválida.</string>
+    <string name="error_email_invalid_title">Email ou Senha Inválida</string>
+    <string name="error_email_invalid_forgot_password">O email selecionado não está cadastrado no Apekato. Tente novamente.</string>
+    <string name="error_email_invalid_forgot_password_title">Email Inválido</string>
+    <string name="error_field_required">Este campo é obrigatório</string>
+    <string name="empty_list_digital_certificate">A lista de certificados digitais está vazia.</string>
+    <string name="empty_list_msg">A lista de mensagens está vazia.</string>
+    <string name="empty_list_notarization">A lista de autenticações está vazia.</string>
+    <string name="error_mobilenum_incomplete">O número do seu celular está incompleto</string>
+    <string name="error_password_confirm_new">As senhas não correspondem</string>
+    <string name="error_password_incorrect">Esta senha está incorreta</string>
+    <string name="error_password_invalid">A senha é muito curta</string>
+    <string name="error_password_digit">A nova senha deve ter pelos menos um número</string>
+    <string name="error_password_specialchar">A nova senha dever ter pelo menos um caractere especial</string>
+    <string name="error_password_uppercase">A nova senha dever ter pelo menos uma letra maiúscula</string>
+    <string name="fee_title">Comissão</string>
+    <string name="hint_write_message">Escreva uma mensagem</string>
+    <string name="hint_tx_id">Cole o ID da transação de autenticação aqui</string>
+    <string name="login_progress_signing_in">Logando&#8230;</string>
+    <string name="no_connectivity">Por favor, conecte seu celular a uma rede de internet.</string>
+    <string name="no_connectivity_title">Sem Conectividade</string>
+    <string name="ok">OK</string>
+    <string name="progress_login_title">Autenticação</string>
+    <string name="progress_login">Autenticando seu login. \nPor favor aguarde...</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_mobile_num">Número de Celular</string>
+    <string name="prompt_password">Senha</string>
+    <string name="prompt_password_code">Código de recuperação</string>
+    <string name="prompt_password_sms">Senha do torpedo</string>
+    <string name="prompt_password_user_cad">Nova senha</string>
+    <string name="prompt_password_user_confirm_cad">Redigitar nova senha</string>
+    <string name="prompt_username_registration">Nome</string>
+    <string name="search">Pesquisar:</string>
+    <string name="sms_password">Apekato senha:</string>
+
+    <!--Aberta - OPEN -->
+    <!--Pedido enviado. Aguardando depósito de Bitcoins em carteira de custódia. - REQUESTED -->
+    <!--Depósito de Bitcoins realizado em carteira de custódia. Aguardando confirmação de depósito no blockchain. - DEPOSITED -->
+    <!--Depósito confirmado no blockchain. Aguardando pagamento bancário. - CONFIRMED -->
+    <!--Pagamento bancário efetuado. Aguardando liberação de Bitcoins. PAYED -->
+    <!--Bitcoins liberados - RELEASED -->
+
+    <string name="symbol_btc">Ƀ</string>
+    <string name="toast_file_invalid">Arquivo inválido</string>
+    <string name="toast_tx_id_invalid">ID da transação inválido</string>
+    <string name="toast_tx_id_wrong_format">Formato de ID da transação incorreto</string>
+    <string name="tv_cpf_title">CPF:</string>
+    <string name="tv_document_certificate_title">Certificado do Documento (SHA-256):</string>
+    <string name="tv_expiration_date_title">Valido Até:</string>
+    <string name="tv_characters_available">caracteres disponíveis</string>
+    <string name="tv_message_title">Mensagem:</string>
+    <string name="tv_name_title">Nome:</string>
+    <string name="tv_notarize_thanks">Seu documento é autenticado no blockchain quando você envia a taxa de serviço com sucesso. Obrigado!</string>
+    <string name="tv_op_return_thanks">Sua mensagem é escrita no blockchain quando você envia a taxa de serviço com sucesso. Obrigado!</string>
+    <string name="tv_op_return_thanks_title">Atenção!</string>
+    <string name="tv_timestamp">Aguardando confirmação da transação</string>
+    <string name="tv_timestamp_title">Carimbo de Tempo:</string>
+    <string name="tv_tx_id_title">ID da Transação:</string>
+    <string name="tv_verify_notarization_confirmed">O documento foi autenticado no blockchain.</string>
+    <string name="tv_verify_notarization_doc_not_found">O documento não foi encontrado no blockchain.</string>
+    <string name="tv_verify_notarization_waiting_confirmation">O documento ainda não foi autenticado no blockchain, pois está aguardando a confirmação de carimbo de tempo no blockchain.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Apekato</string>
+    <string name="app_login_title">Bitcoin Blockchain Services</string>
+
+    <string name="title_section_exit">Exit</string>
+    <string name="title_section_digital_certificate">Digital Certificate</string>
+    <string name="title_section_digital_certificates">Digital Certificates</string>
+    <string name="title_section_login">Signin or Signup</string>
+    <string name="title_section_notarization">Notarization</string>
+    <string name="title_section_notarizations">Notarizations</string>
+    <string name="title_section_digital_signatures">Signatures</string>
+    <string name="title_section_verify_notarization">Verify Notarization</string>
+    <string name="title_section_wall">Blockchain Wall</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_add">Add</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirmar">Confirm</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_import">Import</string>
+    <string name="action_proof">Proof</string>
+    <string name="action_login">Sign in</string>
+    <string name="action_next">Next</string>
+    <string name="action_post">Post</string>
+    <string name="action_register">Sign up</string>
+    <string name="action_send">Send</string>
+    <string name="action_send_code">Send Code</string>
+    <string name="action_share">Share</string>
+    <string name="action_verify">Verify</string>
+    <string name="action_write">Write</string>
+
+    <string name="alertdialog_app_upgrade_title">Update</string>
+
+    <string name="alertdialog_app_upgrade_msg">Please, update your Apekato app as
+        important security updates, bug fixes, and/or new features have been added.</string>
+    <string name="alertdialog_bitcoin_wallet_msg">There are no bitcoin wallet app installed, do you want to install a bitcoin wallet?</string>
+    <string name="alertdialog_bitcoin_wallet_title">Bitcoin Wallet</string>
+    <string name="alertdialog_doc_size_exceeded">Currently, the maximum document size that your Android device can process in RAM memory is</string>
+    <string name="alertdialog_doc_size_exceeded_title">Document Size Limit Exceeded</string>
+    <string name="alertdialog_email_address">Select an email to be notified when your document is notarized in the blockchain:</string>
+    <string name="alertdialog_email_address_title">Email Address</string>
+    <string name="alertdialog_error_duplicated_simserialnum_email_username_title">There is already a registered user with the same:</string>
+    <string name="alertdialog_error_duplicated_simserialnum_msg">			- sim serial number\n</string>
+    <string name="alertdialog_error_duplicated_email_msg">			- email address\n</string>
+    <string name="alertdialog_error_duplicated_username_msg">			- user name</string>
+    <string name="alertdialog_error_mobile_gmail_not_registered_title">Email Account Not Added</string>
+    <string name="alertdialog_error_mobile_gmail_not_registered_msg_1">
+        You are registered on Apekato with the following Google email account:\n</string>
+    <string name="alertdialog_error_mobile_gmail_not_registered_msg_2">
+        \nThis account also needs to be added on your phone in order to login.</string>
+    <string name="alertdialog_google_play_services_title">Google Play Services Not Found</string>
+    <string name="alertdialog_google_play_services">Google Play Services APK must to be installed on your phone
+        in order to use the Apekato app.</string>
+    <string name="alertdialog_import_digital_certificate">Enter the digital certificate password</string>
+    <string name="alertdialog_import_digital_certificate_title">Import Digital Certificate</string>
+    <string name="alertdialog_internal_problem_title">System Error</string>
+    <string name="alertdialog_internal_problem_email_msg">A system error has occurred. Please, Fix it.</string>
+    <string name="alertdialog_internal_problem_msg">A system error has occurred. Please, send an email notifying
+        technical support with a description of the error.</string>
+    <!--<string name="alertdialog_internal_problem_msg">A system error has occurred. An automated email has been sent-->
+    <!--to our support team requesting to fix this error.</string>-->
+    <!--<string name="alertdialog_post_request_msg">After opening the trade request, you and the trader will receive an email with instructions to proceed-->
+    <!--with the trade. And it will inform the trader’s email address to discuss about the trade.</string>-->
+    <string name="alertdialog_no_connectivity">Turn on data or Wi-Fi.</string>
+    <string name="alertdialog_no_connectivity_title">Your Data is Off</string>
+
+    <!--Retorna uma cópia da seqüência de caracteres, com os espaços em branco à esquerda e à esquerda omitidos.-->
+    <!--<string name="alertdialog_wallet_address_wrong_format">There might beAn eReturns a copy of the string, with leading and trailing whitespace omitted.</string>-->
+    <!--<string name="alertdialog_wallet_address_wrong_format_title">Wrong Address Format</string>-->
+
+    <string name="alertdialog_password_forgot_activity_msg">Select an email associated with your account</string>
+    <string name="alertdialog_password_code_activity_msg">Enter the code we emailed you</string>
+    <string name="alertdialog_password_code_activity_msg_error">Sorry, that recovery code is not recognized,
+        please try entering it again or get another code.</string>
+    <string name="alertdialog_password_code_activity_msg_error_title">Invalid Code</string>
+    <string name="alertdialog_password_reset_activity_msg">Your password has been changed.</string>
+    <string name="alertdialog_password_reset_activity_msg_title">Congratulations!</string>
+
+    <string name="alertdialog_register_password_msg">Your password should have: \n
+        - at least 8 characters; \n
+        - one uppercase letter; \n
+        - one number; \n
+        - one of the characters below: \n
+        &#160;&#160;!@#$%^*()-_+=,.?;:\'\"~`´|</string>
+    <!--<string name="alertdialog_registration_progress_title">Cadastrando&#8230;</string>-->
+    <string name="alertdialog_registration_progress_title">Sign Up</string>
+    <string name="alertdialog_registration_progress_msg">Registering your information. \nPlease wait...</string>
+    <string name="alertdialog_reg_cell_num_msg">It was verified the SIM card of your phone has changed.
+        Please, register the phone number of your SIM card in the field below:</string>
+    <string name="alertdialog_user_registration_problem_email_msg">An error occurred in user registration. Please, fix it.</string>
+    <string name="alertdialog_user_registration_problem_msg">Please, send an email notifying technical support to speed up
+        the normalization process.</string>
+    <string name="alertdialog_user_registration_problem_title">User Registration Error</string>
+    <!--<string name="alertdialog_limit_msg">The Apekato app is in Beta version. Because of this, the current limits are: \n\n-->
+    <!-- Maximum price: 3000,00 BRL \n-->
+    <!-- Minimum quantity: 0,02 BTC\n-->
+    <!--Maximum quantity: 0,04 BTC</string>-->
+
+    <string name="ask_choose_wallet">Select a Bitcoin Wallet App</string>
+
+    <string name="button_title_cancel">Cancel</string>
+    <string name="button_title_no">Não</string>
+    <string name="button_title_reset_password">Forgot password?</string>
+    <string name="button_title_send">Send</string>
+    <string name="button_title_yes">Sim</string>
+
+    <string name="confirmation_cel_num">In order to authenticate your phone number,
+        your phone will send an SMS addressed to your own phone number.
+        This SMS will have a code that must be entered in the next field.
+        Depending on your carrier\'s plan, a fee will apply for an SMS being sent.
+        </string>
+    <string name="confirmation_cel_num_title">Phone Number Authentication</string>
+    <string name="currency_code_btc">BTC</string>
+    <string name="email_address">____________</string>
+    <string name="error_email_invalid">This email account is not registered in the app.</string>
+    <string name="error_email_invalid_title">Invalid Email Account</string>
+    <string name="error_email_invalid_forgot_password">The selected email is not registered with Apekato. Try again.</string>
+    <string name="error_email_invalid_forgot_password_title">Invalid Email</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="empty_list_digital_certificate">List of digital certificates is empty.</string>
+    <string name="empty_list_msg">List of messages is empty.</string>
+    <string name="empty_list_notarization">List of notarizations is empty.</string>
+    <string name="error_mobilenum_incomplete">Your phone number is incomplete</string>
+    <string name="error_password_confirm_new">Passwords do not match</string>
+    <string name="error_password_incorrect">This password is incorrect</string>
+    <string name="error_password_invalid">This password is too short</string>
+    <string name="error_password_digit">The new password must contain at least one number</string>
+    <string name="error_password_specialchar">The new password must contain at least one special character</string>
+    <string name="error_password_uppercase">The new password must contain at least one uppercase letter</string>
+    <string name="fee_title">Service Fee</string>
+    <string name="hint_write_message">Write a message</string>
+    <string name="hint_tx_id">Paste the notarization transaction ID here</string>
+    <string name="login_progress_signing_in">Logging in&#8230;</string>
+    <string name="no_connectivity">Please, connect your phone to an internet network.</string>
+    <string name="no_connectivity_title">No Connectivity</string>
+    <string name="ok">OK</string>
+    <string name="progress_login_title">Authentication</string>
+    <string name="progress_login">Authenticating your login. \nPlease wait...</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_mobile_num">Phone number</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_code">Recovery code</string>
+    <string name="prompt_password_sms">Sms password</string>
+    <string name="prompt_password_user_cad">New password</string>
+    <string name="prompt_password_user_confirm_cad">Verify password</string>
+    <string name="prompt_username_registration">Name</string>
+    <string name="search">Search:</string>
+    <string name="sms_password">Apekato code:</string>
+
+    <string name="symbol_btc">Ƀ</string>
+    <string name="toast_file_invalid">Invalid file</string>
+    <string name="toast_tx_id_invalid">Invalid transaction ID</string>
+    <string name="toast_tx_id_wrong_format">Wrong transaction ID format</string>
+    <string name="tv_cpf_title">CPF:</string>
+    <string name="tv_document_certificate_title">Document Cetificate (SHA-256):</string>
+    <string name="tv_expiration_date_title">Expiration Date:</string>
+    <string name="tv_characters_available">characters available</string>
+    <string name="tv_message_title">Message:</string>
+    <string name="tv_name_title">Name:</string>
+    <string name="tv_notarize_thanks">Your document is notarized in the blockchain when you send the service fee successfully. Thank you!</string>
+    <string name="tv_op_return_thanks">Your message is written in the blockchain when you send the service fee successfully. Thank you!</string>
+    <string name="tv_op_return_thanks_title">Attention!</string>
+    <string name="tv_timestamp">Waiting for transaction confirmation</string>
+    <string name="tv_timestamp_title">Timestamp:</string>
+    <string name="tv_tx_id_title">Transaction ID:</string>
+    <string name="tv_verify_notarization_confirmed">Document has been notarized in the blockchain.</string>
+    <string name="tv_verify_notarization_doc_not_found">Document was not found in the blockchain.</string>
+    <string name="tv_verify_notarization_waiting_confirmation">Document hasn\'t been notarized in the blockchain yet. It is waiting for timestamp confirmation in the blockchain.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

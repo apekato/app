@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="a.apkt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.RECEIVE_SMS" />
+     <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- gets email accounts registered on android -->
+    <!-- To activate Login search keyword ACTIVATELOGIN: uncomment GET_ACCOUNTS permission -->
+    <!-- in Apekato app, this permission is used to list user emails in order to send email when notarization service is confirmed -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- To activate Login search keyword ACTIVATELOGIN: uncomment READ_PHONE_STATE permission -->
+    <!-- obtem numero do cel do usuario -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- begin block with gcm permissions -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<!--    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_bitcoin_symbol_whitebg"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+        receiver for gcm:  The receiver should require the
+        com.google.android.c2dm.SEND permission, so that only the GCM Framework
+        can send a message to it. If your app uses an IntentService
+        (not required, but a common pattern), this receiver should be an instance
+        of WakefulBroadcastReceiver. A WakefulBroadcastReceiver takes care of creating
+        and managing a partial wake lock for your app.
+        -->
+        <!--
+        service for gcm: A Service (typically an IntentService) to which
+        the WakefulBroadcastReceiver passes off the work of handling the GCM message,
+        while ensuring that the device does not go back to sleep in the process.
+        Including an IntentService is optional—you could choose to process your
+        messages in a regular BroadcastReceiver instead, but realistically, most apps
+        will use a IntentService.
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+
+                <!--
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                -->
+                <action android:name="MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.apkt.LoginActivity" />
+            <!-- android:windowSoftInputMode="adjustResize|stateVisible" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DigSigActivity"
+            android:exported="false"
+            android:label="@string/title_section_digital_signatures"
+            android:screenOrientation="portrait">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.apkt.DigSigActivity" />
+        </activity>
+        <activity
+            android:name=".OpReturnActivity"
+            android:exported="false"
+            android:label="@string/title_section_wall"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.apkt.OpReturnActivity" />
+        </activity>
+        <activity
+            android:name=".OpReturnEditActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.apkt.OpReturnEditActivity" />
+        </activity>
+        <activity
+            android:name=".OpReturnRqstdActivity"
+            android:exported="false"
+            android:label="@string/title_section_verify_notarization"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.apkt.OpReturnRqstdActivity" />
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".VerifyNotarizationActivity"
+            android:exported="false"
+            android:label="@string/title_section_verify_notarization"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.apkt.OpReturnRqstdActivity" />
+        </activity>
+
+        <activity android:name=".DigCertActivity"
+            android:exported="false"
+            android:label="@string/title_section_digital_certificate"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.apkt.DigCertActivity" />
+        </activity>
+
+
+
+        <activity
+            android:name=".AutentUserNameActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="AUTENTUSERNAMEACTIVITY" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".AutentEmailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AutentMobileNumActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="AUTENTMOBILENUMACTIVITY" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".AutentSmsPasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="AUTENTSMSPASSWORDACTIVITY" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".AutentUserPasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+
+            <!--
+            <intent-filter>
+                <action android:name="AUTENTUSERPASSWORDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".SimSerMobNumRegActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="SIMSERMOBNUMREGACTIVITY" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".SimSerMobNumPasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="SIMSERMOBNUMPASSWORDACTIVITY" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".PasswordForgotActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.apkt.PasswordForgotActivity" />
+        </activity>
+        <activity
+            android:name=".PasswordResetActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.apkt.PasswordResetActivity" />
+        </activity>
+        <activity
+            android:name=".PasswordCodeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.apkt.PasswordCodeActivity" />
+        </activity>
+    </application>
+
+</manifest>

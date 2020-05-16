@@ -1,0 +1,2 @@
+convert jks to bks using bcprov-jdk15on-161.jar (located in libs)
+keytool -importkeystore -srckeystore icpbrasil.jks -srcstoretype JKS -srcstorepass changeit -destkeystore icpbrasil.bks -deststoretype BKS -deststorepass changeit -provider org.bouncycastle.jce.provider.BouncyCastleProvider -providerpath bcprov-jdk15on-161.jar

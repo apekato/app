@@ -1,0 +1,57 @@
+<!-- It uses ScrollView tag because without it 
+the number pad will not prompt automatically -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/autent_mob_num_form"
+    android:background="@color/green_8bc34a"
+    tools:context="a.apkt.AutentMobileNumActivity">
+
+    <LinearLayout
+        style="@style/LoginFormContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/alertdialog_reg_cell_num_msg"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/autent_mobile_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_mobile_num"
+            android:imeActionId="@+id/autent_mobile_num_button"
+            android:imeActionLabel="@string/action_continue"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray_1"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/autent_mobile_num_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:text="@string/action_continue"
+            android:textColor="@color/black" />
+        <!--android:background="@drawable/button"-->
+    </LinearLayout>
+
+</ScrollView>
